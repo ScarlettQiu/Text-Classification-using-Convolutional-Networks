@@ -1,1 +1,6 @@
 # Text-Classification-using-Convolutional-Networks
+
+This project aims to create a model for predicting students’ writing, which will be helpful to test students' motor abilities. Motor abilities involve all of the body’s small muscles, especially the control precise motions of the hands and wrists (Fine Motor Skills & Handwriting: Tools for the Classroom, 2018). The dataset used for this analysis contains different pixel numbers. Each pixel has a single value which indicates the lightness and darkness of the picture. The higher the pixel number is the darker the place (Handwritten-Digit Recognition, n.d.). This project will mainly use K-Nearest Neighbors (KNN) and Neural Networks to create models for predicting handwriting. Also, this project has compared the performances and challenges of using the 2 models.  
+
+Dataset  
+The dataset contains 42000 rows and 46 columns. The first column is “label” which is the numbers the students drew. The rest columns are the pixel values which refer to the darkness and lightness of the images. The first column label is a categorical variable since it indicates the handwriting image. All the pixel values are numeric.
